@@ -11,6 +11,7 @@
 		DCAEA7652944241D00394E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAEA7642944241D00394E9D /* ContentView.swift */; };
 		DCAEA7672944241E00394E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAEA7662944241E00394E9D /* Assets.xcassets */; };
 		DCAEA76A2944241E00394E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAEA7692944241E00394E9D /* Preview Assets.xcassets */; };
+		DCAEA7722944310200394E9D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAEA7712944310200394E9D /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DCAEA7642944241D00394E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCAEA7662944241E00394E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAEA7692944241E00394E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCAEA7712944310200394E9D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DCAEA7612944241D00394E9D /* SwiftTransition */ = {
 			isa = PBXGroup;
 			children = (
+				DCAEA770294430F800394E9D /* Model */,
 				DCAEA7622944241D00394E9D /* SwiftTransitionApp.swift */,
 				DCAEA7642944241D00394E9D /* ContentView.swift */,
 				DCAEA7662944241E00394E9D /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DCAEA7692944241E00394E9D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCAEA770294430F800394E9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCAEA7712944310200394E9D /* CardView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DCAEA7652944241D00394E9D /* ContentView.swift in Sources */,
 				DCAEA7632944241D00394E9D /* SwiftTransitionApp.swift in Sources */,
+				DCAEA7722944310200394E9D /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
